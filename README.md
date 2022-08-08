@@ -4,38 +4,24 @@
 
 Deploy a Smart Contract on any Ethereum Testnet using Remix IDE. 
 
-#### Requirements 
+#### Steps to deploy you first contract 
 
-- Use REMIX IDE
-- Update this README with a brief explanation of the project. For example, what functions it has, what Testnet did you used.   
-- Comment your code so your teammates at Zircon can understand it. 
-- Use external libraries if you want. 
+- Select Kovan in your Metamask wallet
+- Go to [https://faucets.chain.link/](https://faucets.chain.link/) to add 0.1 Ethereum Kovan to your account
+- Go to [https://remix.ethereum.org/](https://remix.ethereum.org/) to see your default workspace.
 
-### List of resources
+![Output](./assets/01-SelectContract.png?raw=true)
 
-#### General
+- Select compiler version and compile you contract
 
-- If you are short of ideas you can follow this tutorial [Intro to Remix & Solidity | Chainlink Engineering Tutorials](https://www.youtube.com/watch?v=JWJWT9cwFbo&ab_channel=Chainlink)
-- [Chainlink Faucet](https://faucets.chain.link/)
-- [Ethereum Testnet Faucets](https://goethereumbook.org/faucets/)
+![Output](./assets/02-Compile.png?raw=true)
+![Output](./assets/00-Contract-Deployed.png?raw=true)
 
-## Unidad 3: Ethereum | Remix IDE -Versión en español- 🚀
+- To implement it, select the environment for "Injected..." (this is to use Metamask) and select your contact. Make sure you are on the correct testnet (Kovan in my case)
 
-### ¿De qué se trata este proyecto?
+![Output](./assets/03-Deploy.png?raw=true)
+![Output](./assets/03-Deploy-02.png?raw=true)
 
-Despliega un contrato inteligente en cualquier Testnet de Ethereum usando Remix. 
-
-#### Requisitos
-
-- Usa Remix IDE
-- Actualiza este README con una breve explicación del proyecto. Por ejemplo, qué funciones tiene, qué testnet utilizaste. 
-- Comenta tu código para que tus compañeros de Zircon puedan entenderlo.
-- Utiliza bibliotecas externas si quieres.
-
-### Lista de recursos
-
-#### General
-
-- Si estas sin ideas, puedes seguir el siguiente tutorial [Intro to Remix & Solidity | Chainlink Engineering Tutorials](https://www.youtube.com/watch?v=JWJWT9cwFbo&ab_channel=Chainlink)
-- [Chainlink Faucet](https://faucets.chain.link/)
-- [Ethereum Testnet Faucets](https://goethereumbook.org/faucets/)
+- Run every method
+![Output](./assets/04-Run.png?raw=true)
+![Output](./assets/04-Run-02.png?raw=true)
